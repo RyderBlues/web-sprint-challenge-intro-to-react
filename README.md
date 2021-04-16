@@ -32,11 +32,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React allows us to dynamically display data on a webpage and also allows us to update that data without completely reloading the webpage.
+
 1. Describe component state.
+
+React components can have one or multiple states that store information relevant to the component. When a state changes the component will rerender itself.
 
 1. Describe props.
 
+Props allow us to pass data throughout multiple components without having to save the data in multiple places.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side Effects are anything that effects something outside of the function currently running. A side effect can cause a component to render different outputs depending on what is being input. Side Effects may need cleanup if they are causing memory leak.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -59,12 +67,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use the following API:
+- [x ] Use the following API:
   - [Star Wars API](https://swapi.dev/)
-- [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
-- [ ] Set the list of characters into state.
-- [ ] Render your characters to the screen:
+- [x ] Use the documentation and Google to learn how to fetch characters from your API.
+- [x ] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [x ] Set the list of characters into state.
+- [x ] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
