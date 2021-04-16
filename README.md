@@ -34,15 +34,15 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 React allows us to dynamically display data on a webpage and also allows us to update that data without completely reloading the webpage.
 
-1. Describe component state.
+2. Describe component state.
 
 React components can have one or multiple states that store information relevant to the component. When a state changes the component will rerender itself.
 
-1. Describe props.
+3. Describe props.
 
 Props allow us to pass data throughout multiple components without having to save the data in multiple places.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
 
 Side Effects are anything that effects something outside of the function currently running. A side effect can cause a component to render different outputs depending on what is being input. Side Effects may need cleanup if they are causing memory leak.
 
